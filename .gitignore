@@ -1,2 +1,4 @@
 lesson8.iml
-out/
+out/*
+.idea/workspace.xml
+
