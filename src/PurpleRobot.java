@@ -6,7 +6,7 @@ public class PurpleRobot extends BlueRobot {
     }
 
     void introduce() {
-        System.out.println("I am a Purple Robot!");
+        System.out.println("I am a Purple Robot! My parent class is BlueRobot.");
         super.introduce();
     }
 
