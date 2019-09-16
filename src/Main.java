@@ -66,6 +66,11 @@ public class Main {
         // "Hello! My name is (name), I am (color), I have (eyes color) and I weight (weight) kilograms"
         // 1.6 - Use this class in main, calls introduce, calls pow method and print the result
 
+        PurpleRobot newPurple = new PurpleRobot("Jack", "brown", 80 );
+        newPurple.introduce();
+        Integer powRes = newPurple.pow(8);
+        System.out.println(powRes);
+
 
         // Exercise 4 - Polymorphism
 
