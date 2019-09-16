@@ -5,11 +5,6 @@ public class YellowRobot extends Robot{
         this.color = "Yellow";
     }
 
-    void introduce() {
-        System.out.println("I am a Yellow Robot - I am always Yellow");
-        super.introduce();
-    }
-
     public Integer sum(Integer a, Integer b) {
         return a + b;
     }

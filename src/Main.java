@@ -24,7 +24,7 @@ public class Main {
 //         Color robotColor = Color.BLUE;
 //         System.out.println(robotColor);
 
-        // Exercise 1
+        // Exercise 1 - Basic Inheritance
         // 1.1 - Create a new constructor in Robot Class with String name, String eyesColor, int weight as parameters
         // 1.2 - Create a new Class called YellowRobot that:
         // 1.2.1 - is a subclass of Robot (extends Robot)
@@ -38,7 +38,11 @@ public class Main {
         Integer sum = newYellow.sum(1000,1922);
         System.out.println(sum);
 
-        // Exercise 2
+        //if I run this line
+        //Robot newYellow2 = new YellowRobot("Marcelio", "green", 800 );
+        //Does it work?
+
+        // Exercise 2 - Inheritance, extensibility and accessibility
         // Change the introduction and add the ability of the robot
         // Change the accessibily of attributes to private
         // See what happen
@@ -50,7 +54,7 @@ public class Main {
         // This method must get two int and return the sum of values
 
 
-        // Exercise 3
+        // Exercise 3 - Polimorphism
         // Create a new Robot - RedRobot
         // Its color is always Red
         // Create a method to introduce and explaining that is a Red Robot
