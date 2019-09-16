@@ -13,4 +13,8 @@ public class YellowRobot extends Robot{
     public Integer sum(Integer a, Integer b) {
         return a + b;
     }
+
+    public Integer calculate(Integer a, Integer b) {
+        return this.sum(a, b);
+    }
 }

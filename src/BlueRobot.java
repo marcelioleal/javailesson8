@@ -13,4 +13,8 @@ public class BlueRobot extends Robot{
     public Integer multiply(Integer a, Integer b) {
         return a * b;
     }
+
+    public Integer calculate(Integer a, Integer b) {
+        return this.multiply(a, b);
+    }
 }

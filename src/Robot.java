@@ -38,5 +38,8 @@ public class Robot {
         this.color = newColor;
     }
 
+    public Integer calculate(Integer a, Integer b) {
+        return null;
+    }
 }
 
