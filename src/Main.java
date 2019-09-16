@@ -73,9 +73,18 @@ public class Main {
 
 
         // Exercise 4 - Polymorphism
-
-        // 1.6 - Let's create a method called calculate in all Robots (Robot, BlueRobot, YellowRobot, and PurpleRobot
-        // Create an Array with the three objects and call caculate and introduce for all of them
+        // 1.1 - Now it's time to create a method calculate in all Robots
+        // 1.1.1 - This method must run the specific ability that the robots do. Like Yellow Robot sum, Blue multiply, etc.
+        // 1.1.2 - In the case of Purple Robot, we must create a new method pow, with two Integer parameters, and call Math.pow
+        // 1.1.3 - the return of the calculate method must be an Integer. Cast the result from Math.pow. Add (int) before the method call.
+        // 1.1.4 - Now it's time to create a new class - RobotHelper - this class has two properties Integer a and b
+        // 1.1.5 - You cannot change the properties out of this class
+        // 1.1.5 - This class helps the Robots to calculate,
+        // it has a method that get any Robot as parameter (Robot, BlueRobot, YellowRobot, PurpleRobot)
+        // and return the result of calculate from them using the properties.
+        // 1.2 - Use this class in main, print the result passing each Robot you have created
+        // Integer result = helper.calculateOperation(newYellow);
+        // System.out.println("The Result is: " + result);
 
     }
 }
