@@ -11,6 +11,13 @@ public class Robot {
         this.color = "yellow";
     }
 
+    Robot(String name, String eyesColor, int weight){
+        this.name = name;
+        this.eyesColor = eyesColor;
+        this.weight = weight;
+    }
+
+
     Robot(String name, String color, String eyesColor, int weight){
                                                                                                                                                     // this(name, eyesColor);
         this.name = name;

@@ -3,28 +3,7 @@ import java.awt.*;
 public class Main {
 
     public static void main(String[] args) {
-        Robot robotBot = new Robot("Bot", "blue", "black", 8 );
-        Robot robotRob = new Robot("Rob", "Yellow", "green", 10 );
-        Robot tedRobot = new Robot("Renato", "brown");
-        Robot renatoRobot = new Robot();
-        Robot robotBlue = new Robot("Blue");
-        Robot robotYellow = new Robot("Yellow", "Green");
 
-        Robot[] robots = new Robot[]{robotBlue, robotBot, robotRob, tedRobot, renatoRobot, robotYellow};
-
-//        // only yellow ones introduce themselves!
-//        for (Robot r : robots) {
-//            if ("yellow".equalsIgnoreCase(r.color)) {
-//                r.introduce();
-//            }
-//        }
-//
-//        robotRob.introduce();
-//        robotBot.introduce();
-//        renatoRobot.introduce();
-//        tedRobot.introduce();
-//
-//        Robot weirdRobot = new Robot("Brown", "Renato");
 
         // Exercise 1 - Basic Inheritance
         // 1.1 - Create a new constructor in Robot Class with String name, String eyesColor, int weight as parameters
@@ -34,6 +13,10 @@ public class Main {
         // 1.2.3 - Have a new behaviour/method that sums 2 Integers returning an Integer
         // 1.2.4 - Use this class in main, calls introduce, calls sum method and print the result
 
+        YellowRobot newYellow = new YellowRobot("Marcelio", "green", 100);
+        newYellow.introduce();
+        Integer n = newYellow.sum(10,8);
+        System.out.println(n);
 
         //if I run this line
         //Robot newYellow2 = new YellowRobot("Marcelio", "green", 800 );
