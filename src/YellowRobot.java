@@ -2,7 +2,7 @@ public class YellowRobot extends Robot{
 
     YellowRobot(String name, String eyesColor, int weight) {
         super(name , eyesColor, weight);
-        this.color = "Yellow";
+        this.changeColor("Yellow");
     }
 
     void introduce() {

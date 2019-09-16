@@ -2,7 +2,7 @@ public class Robot {
 
     int weight;
     String name;
-    String color;
+    private String color;
     String eyesColor;
 
 
@@ -32,7 +32,10 @@ public class Robot {
     void introduce() {
         System.out.println("Hello! My name is " + this.name + ", I am " + this.color + ", I have "
                 + this.eyesColor + " eyes and I weight " + this.weight + " kilograms");
+    }
 
+    public void changeColor(String newColor) {
+        this.color = newColor;
     }
 
 }
